@@ -1,0 +1,231 @@
+<!-- Sadeen Shahwan - June 2026 -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IELTS Practice Resources Hub</title>
+<style>
+  /* messing with colors a bit, might tweak later */
+  * { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+  body { background:#ffffff; color:#222222; padding:30px 15px; }
+  h1 { text-align:center; color:#222; margin-bottom:8px; font-size:2.1rem; font-weight:800; letter-spacing:-0.5px; }
+  .sub { text-align:center; color:#666; margin-bottom:30px; }
+  .container { max-width:980px; margin:0 auto; }
+  .section { background:#f4f4f4; border-radius:6px; padding:22px; margin-bottom:22px; border-right:5px solid var(--c); }
+  .section.compact { padding:16px; margin-bottom:16px; }
+  .section.wide h2 { font-size:1.5rem; margin-bottom:18px; }
+  .section h2 { font-size:1.35rem; margin-bottom:14px; color:var(--c); display:flex; align-items:center; gap:10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(180px,1fr)); gap:12px; }
+  .wide-grid { grid-template-columns:repeat(auto-fill, minmax(260px,1fr)); gap:18px; }
+  .card { background:#ffffff; border:1px solid #ccc; border-radius:6px; padding:13px 15px; transition:.2s; }
+  .card:hover { border-color:var(--c); box-shadow:0 4px 12px rgba(0,0,0,0.3); }
+  .card a { color:#1a1a1a; font-weight:bold; text-decoration:none; font-size:1.05rem; }
+  .card p { color:#666; font-size:.85rem; margin-top:6px; }
+  .listening { --c:#38bdf8; }
+  .reading { --c:#4ade80; }
+  .writing { --c:#f472b6; }
+  .speaking { --c:#fbbf24; }
+  .general { --c:#a78bfa; background:#eef0fb; }
+  .stars { color:#fbbf24; font-size:.85rem; margin-top:6px; letter-spacing:2px; }
+  .level { display:inline-block; background:#e0e0e0; color:#444; font-size:.7rem; padding:2px 8px; border-radius:6px; margin-top:6px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- todo: maybe add a speaking section with more sites -->
+  <!-- got the idea for the star ratings + level tags from a youtube video about organizing study resources -->
+  <!-- also need to double check the writing9 link still works -->
+  <!-- ugly css below but it works, dont touch -->
+  <h1>📚 IELTS Practice Resources Hub</h1>
+  
+  <div style="max-width:500px;margin:0 auto 30px;">
+    <input id="searchInput" type="text" placeholder="🔍 Search websites..." 
+      style="width:100%;padding:12px 16px;border-radius:6px;border:1px solid #ccc;background:#fff;color:#222;font-size:1rem;outline:none;">
+  </div>
+
+  <p class="sub">A curated collection of useful websites organized by skill (Listening / Reading / Writing / Speaking)</p>
+
+  <div class="section listening wide">
+    <h2>🎧 Listening</h2>
+    <div class="grid wide-grid">
+      <div class="card"><a href="https://www.ieltsbuddy.com/ielts-listening-practice.html" target="_blank">IELTS Buddy</a><p>Various listening exercises with answer explanations</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltsonlinetests.com/ielts-listening" target="_blank">IELTS Online Tests</a><p>Full listening tests with instant scoring</p><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ielts-up.com/listening/ielts-listening-test.html" target="_blank">IELTS UP</a><p>Progressive exercises by difficulty level</p><div class="stars">★★★★☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://www.examenglish.com/IELTS/ielts_listening.html" target="_blank">Exam English</a><div class="stars">★★★☆☆</div><span class="level">Beginner</span></div>
+      <div class="card"><a href="https://ieltsliz.com/ielts-listening-practice-tests/" target="_blank">IELTS Liz</a><p>Strategy explanations + listening exercises</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+
+      <div class="card"><a href="https://www.ielts-mentor.com/listening-sample/" target="_blank">IELTS Mentor</a><p>Full listening samples with detailed answers</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltssimon.com/ielts-help-and-english-pra/listening" target="_blank">IELTS Simon</a><p>Tips and videos for solving listening questions</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ieltsadvantage.com/ielts-listening/" target="_blank">IELTS Advantage</a><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.jumpinto.com/ielts/practice/academic/listening" target="_blank">Jumpinto</a><p>Got these from actual past exams, pretty close to the real deal</p><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ielts-writing.info/EXAM/listening.html" target="_blank">IELTS Writing.info</a><p>Listening exercises with downloadable audio files</p><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://www.englishpost.org/ielts-listening-practice-tests/" target="_blank">English Post</a><p>Free listening tests with answer explanations</p><div class="stars">★★★☆☆</div><span class="level">Beginner</span></div>
+      <div class="card"><a href="https://ielts.idp.com/prepare/listening" target="_blank">IDP IELTS Prepare</a><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://engexam.info/ielts/" target="_blank">EngExam.info</a><p>Listening question bank sorted by type</p><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests" target="_blank">British Council Free Tests</a><p>Full official free listening tests</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+    </div>
+  </div>
+
+  <div class="section reading">
+    <h2>📖 Reading</h2>
+    <div class="grid" style="grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); gap:10px">
+      <div class="card"><a href="https://www.ielts-up.com/reading/ielts-reading-test.html" target="_blank">IELTS UP</a><p>Reading passages categorized by topic</p><div class="stars">★★★★☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://ieltsonlinetests.com/ielts-reading" target="_blank">IELTS Online Tests</a><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ieltsbuddy.com/ielts-reading-practice-test.html" target="_blank">IELTS Buddy</a><p>Exercises with different question types</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.examenglish.com/IELTS/ielts_reading.html" target="_blank">Exam English</a><p>Quick reading samples for daily practice</p><div class="stars">★★★☆☆</div><span class="level">Beginner</span></div>
+      <div class="card"><a href="https://ieltsliz.com/ielts-reading-practice-tests/" target="_blank">IELTS Liz</a><p>Techniques for solving reading questions</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+
+      <div class="card"><a href="https://www.ielts-mentor.com/reading-sample/" target="_blank">IELTS Mentor</a><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltssimon.com/ielts-help-and-english-pra/reading" target="_blank">IELTS Simon</a><p>Techniques and drills for reading questions</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ieltsadvantage.com/ielts-reading/" target="_blank">IELTS Advantage</a><p>Time management strategies and reading samples</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.jumpinto.com/ielts/practice/academic/reading" target="_blank">Jumpinto</a><p>Also from real past exams</p><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ielts-writing.info/EXAM/reading.html" target="_blank">IELTS Writing.info</a><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://www.englishpost.org/ielts-reading-practice-tests/" target="_blank">English Post</a><p>Free reading tests with answer explanations</p><div class="stars">★★★☆☆</div><span class="level">Beginner</span></div>
+      <div class="card"><a href="https://ielts.idp.com/prepare/reading" target="_blank">IDP IELTS Prepare</a><p>Official IDP reading practice materials</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://engexam.info/ielts/" target="_blank">EngExam.info</a><p>Reading passage bank sorted by topic</p><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-practice-tests" target="_blank">British Council Free Tests</a><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+    </div>
+  </div>
+
+  <div class="section writing">
+    <h2>✍️ Writing</h2>
+    <div class="grid" style="grid-template-columns:repeat(auto-fill, minmax(300px,1fr))">
+      <div class="card"><a href="https://ieltsliz.com/ielts-writing-task-2/" target="_blank">IELTS Liz</a><p>Task 1 & 2 essay samples with analysis</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.ieltsbuddy.com/ielts-writing-task-2.html" target="_blank">IELTS Buddy</a><p>Examples + ready-made writing templates</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://writing9.com/" target="_blank">Writing9</a><p>Automatic AI-based essay correction</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltswritingtemplates.com/" target="_blank">IELTS Writing Templates</a><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+
+      <div class="card"><a href="https://www.ielts-mentor.com/writing-sample/" target="_blank">IELTS Mentor</a><p>Writing Task 1 & 2 samples at different band scores</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltssimon.com/ielts-help-and-english-pra/writing" target="_blank">IELTS Simon</a><p>Band 8/9 essay examples with explanations</p><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ieltsadvantage.com/ielts-writing/" target="_blank">IELTS Advantage</a><p>Templates and writing styles for all topic types</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.jumpinto.com/ielts/practice/academic/writing" target="_blank">Jumpinto</a><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.ielts-writing.info/EXAM/writing.html" target="_blank">IELTS Writing.info</a><p>Common Writing topic examples</p><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://www.englishpost.org/ielts-writing-task-2-essay-topics/" target="_blank">English Post</a><p>Task 2 topics with sample answers</p><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://ielts.idp.com/prepare/writing" target="_blank">IDP IELTS Prepare</a><p>Official IDP writing practice materials</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://engexam.info/ielts/" target="_blank">EngExam.info</a><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://corrigeai.com/" target="_blank">CorrigeAI</a><p>AI-based IELTS essay correction</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+    </div>
+  </div>
+
+  <div class="section speaking">
+    <h2>🗣️ Speaking</h2>
+    <div class="grid">
+      <div class="card"><a href="https://ieltsliz.com/ielts-speaking-questions/" target="_blank">IELTS Liz</a><p>Common Part 1, 2, 3 questions with sample answers</p></div>
+      <div class="card"><a href="https://www.ieltsbuddy.com/ielts-speaking-test.html" target="_blank">IELTS Buddy</a><p>Sample answers and speaking techniques</p></div>
+      <div class="card"><a href="https://www.ieltspodcast.com/" target="_blank">IELTS Podcast</a></div>
+    </div>
+  </div>
+
+  <div class="section general">
+    <h2>General Sites (All Four Skills)</h2>
+    <div class="grid">
+      <div class="card"><a href="https://www.britishcouncil.org/exam/ielts/prepare" target="_blank">British Council</a><p>Official source + free exercises</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ielts.org/" target="_blank">IELTS.org</a><p>Official test website</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.ieltsbuddy.com/" target="_blank">IELTS Buddy</a><p>Comprehensive lessons for all skills</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltsliz.com/" target="_blank">IELTS Liz</a><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltsonlinetests.com/" target="_blank">IELTS Online Tests</a><p>Full mock tests simulating the real exam</p></div>
+      <div class="card"><a href="https://www.jumpinto.com/ielts/practice" target="_blank">Jumpinto</a><p>Used this a lot for Writing feedback</p><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ielts-mentor.com/" target="_blank">IELTS Mentor</a><p>Exercises and samples for all test sections (Academic & GT)</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltssimon.com/" target="_blank">IELTS Simon</a><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.ieltsadvantage.com/" target="_blank">IELTS Advantage</a><p>Lots of guides here, some better than others but worth a look</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://magoosh.com/ielts/" target="_blank">Magoosh IELTS</a><p>Good if you like learning through video</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltsmaterial.com/" target="_blank">IELTS Material</a><p>Tips, sample answers and practice tests for all sections</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ielts.idp.com/" target="_blank">IDP IELTS</a><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.cambridgeenglish.org/exams-and-tests/ielts/" target="_blank">Cambridge English</a><p>Official test maker, with practice materials and guides</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+    </div>
+  </div>
+
+  <div class="section" style="--c:#f97316; padding:18px;">
+    <h2>IELTS Library</h2>
+    <div class="grid">
+      <div class="card"><a href="https://www.ieltsbuddy.com/ielts-practice-tests.html" target="_blank">IELTS Buddy Library</a><p>Library of full past test samples</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://ielts-up.com/" target="_blank">IELTS UP</a><p>Exercise library organized by level and skill</p><div class="stars">★★★★☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://www.ieltsonlinetests.com/" target="_blank">IELTS Online Tests</a><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.jumpinto.com/ielts/vocabulary" target="_blank">Jumpinto Vocabulary</a><p>Vocabulary library extracted from real test passages</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ieltstrainingonline.com/" target="_blank">IELTS Training Online</a><p>Interactive exercise library for all skills</p><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+    </div>
+  </div>
+
+  <div class="section" style="--c:#22d3ee">
+    <h2>🎧 General Listening Skill Development</h2>
+    <div class="grid">
+      <div class="card"><a href="https://www.bbc.co.uk/learningenglish" target="_blank">BBC Learning English</a><p>News, podcasts and videos to train your ear for natural English</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.ted.com/talks" target="_blank">TED Talks</a><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.elllo.org/" target="_blank">ELLLO</a><p>Thousands of short listening clips with real speakers</p><div class="stars">★★★★☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://www.voanews.com/learningenglish" target="_blank">VOA Learning English</a><p>Slow, clear news broadcasts for listening practice</p><div class="stars">★★★★☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://www.lyricstraining.com/" target="_blank">LyricsTraining</a><p>Improve listening by filling in song lyrics</p><div class="stars">★★★☆☆</div><span class="level">All levels</span></div>
+    </div>
+  </div>
+
+  <div class="section" style="--c:#84cc16">
+    <h2>📖 General Reading Skill Development</h2>
+    <div class="grid">
+      <div class="card"><a href="https://www.bbc.com/news" target="_blank">BBC News</a><div class="stars">★★★★★</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.newsinlevels.com/" target="_blank">News in Levels</a><p>Same news stories written at 3 difficulty levels</p><div class="stars">★★★★★</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://www.bbc.co.uk/learningenglish/english/features/6-minute-english" target="_blank">BBC 6 Minute English</a><p>Short articles + audio on everyday topics</p><div class="stars">★★★★☆</div><span class="level">Intermediate</span></div>
+      <div class="card"><a href="https://www.theguardian.com/" target="_blank">The Guardian</a><p>Quality long-form articles for advanced reading practice</p><div class="stars">★★★★☆</div><span class="level">Advanced</span></div>
+      <div class="card"><a href="https://www.scientificamerican.com/" target="_blank">Scientific American</a><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+    </div>
+  </div>
+
+  <div class="section" style="--c:#fb7185">
+    <h2>✍️ General Writing Skill Development</h2>
+    <div class="grid">
+      <div class="card"><a href="https://www.languagetool.org/" target="_blank">LanguageTool</a><p>Free grammar and spelling checker, supports multiple languages</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.grammarly.com/" target="_blank">Grammarly</a><p>Grammar, spelling and style checker for your essays</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.hemingwayapp.com/" target="_blank">Hemingway Editor</a><p>Improve clarity and readability of your writing</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+      <div class="card"><a href="https://www.lang-8.com/" target="_blank">Lang-8 / HiNative</a><p>Get your writing corrected by native speakers</p><div class="stars">★★★☆☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.englishclub.com/writing/" target="_blank">EnglishClub Writing</a><div class="stars">★★★☆☆</div><span class="level">Beginner - Intermediate</span></div>
+      <div class="card"><a href="https://quillbot.com/" target="_blank">QuillBot</a><p>Paraphrasing and grammar tool to enhance vocabulary range</p><div class="stars">★★★★☆</div><span class="level">Intermediate - Advanced</span></div>
+    </div>
+  </div>
+
+  <div class="section compact" style="--c:#facc15">
+    <h2>📝 Vocabulary &amp; Grammar Builders</h2>
+    <div class="grid">
+      <div class="card"><a href="https://www.vocabulary.com/" target="_blank">Vocabulary.com</a><p>Adaptive vocabulary learning with quizzes and games</p></div>
+      <div class="card" style="padding:14px;"><a href="https://quizlet.com/" target="_blank">Quizlet</a><p>Flashcards for IELTS vocabulary lists</p></div>
+      <div class="card"><a href="https://www.grammarly.com/grammar-check" target="_blank">Grammarly Grammar Checker</a></div>
+      <div class="card"><a href="https://www.englishgrammar.org/" target="_blank">English Grammar.org</a><p>Grammar rules and exercises by topic</p></div>
+      <div class="card"><a href="https://www.ieltsbuddy.com/ielts-vocabulary.html" target="_blank">IELTS Buddy Vocabulary</a><p>Topic-based vocabulary lists for IELTS</p></div>
+    </div>
+  </div>
+
+  <!-- this section needs more sites tbh -->
+  <div class="section compact" style="--c:#60a5fa">
+    <h2>Band Score & Progress Tools 🛠️</h2>
+    <div class="grid">
+      <div class="card"><a href="https://ieltsliz.com/ielts-band-scores/" target="_blank">IELTS Liz Band Score Guide</a><p>Understand how band scores are calculated</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://www.ieltsbuddy.com/ielts-band-score-calculator.html" target="_blank">Band Score Calculator</a><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://writing9.com/" target="_blank">Writing9 AI Scorer</a><p>I used this to check my essays before submitting them</p><div class="stars">★★★★★</div><span class="level">All levels</span></div>
+      <div class="card"><a href="https://ielts.idp.com/prepare" target="_blank">IDP Study Planner</a><p>Plan your prep timeline based on test date</p><div class="stars">★★★★☆</div><span class="level">All levels</span></div>
+    </div>
+  </div>
+
+</div>
+
+  <div style="text-align:center; margin-top:20px; padding:20px; color:#777; font-size:0.85rem; border-top:1px solid #ddd;">
+    <p>Made this for myself and figured I'd share it. Some links might go stale over time, lmk if you find a dead one.</p>
+    <p style="margin-top:6px;">Sudin Shahwan</p>
+    <p style="margin-top:6px;">sadeenshahwan53@gmail.com</p>
+    <p style="margin-top:6px;">Last updated: June 2026</p>
+  </div>
+
+<script>
+  // quick filter, nothing fancy
+  const searchInput = document.getElementById('searchInput');
+  searchInput.addEventListener('input', function() {
+    const term = this.value.toLowerCase();
+    document.querySelectorAll('.card').forEach(card => {
+      const text = card.textContent.toLowerCase();
+      card.style.display = text.includes(term) ? '' : 'none';
+    });
+    document.querySelectorAll('.section').forEach(section => {
+      const visible = [...section.querySelectorAll('.card')].some(c => c.style.display !== 'none');
+      section.style.display = visible ? '' : 'none';
+    });
+  });
+</script>
+</body>
+</html>
